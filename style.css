@@ -1,0 +1,195 @@
+.nav {
+    background-color: #018646;
+    color: white;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+li {
+    padding: 5px 20px;
+    font-size: 14.7px;
+    font-weight: 600;
+    border-left: 1px solid white;
+}
+
+li:hover {
+    background-color: red;
+}
+
+section {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.notice table, .notice th, .notice td {
+    border: 1px solid black;
+    padding: 2px 40px 2px 5px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.notice table {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.hd {
+    text-align: center;
+    background: rgb(192, 192, 192);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+td {
+    width: 110px
+}
+
+.boardOne, .board3 {
+    border: 1px solid black;
+    padding: 5px;
+    width: 20%;
+}
+
+.boardTwo {
+    width: 58%;
+    /* border: 1px solid black; */
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 2px
+}
+
+.notice {
+    display: flex;
+}
+
+.boardTwo p {
+    background: rgb(192, 192, 192);
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.topDiv {
+    border: 1px solid rgb(240, 233, 233);
+    display: flex;
+    height: 80%;
+}
+
+.topDetailsdiv {
+    width: 33.3%;
+    border: 1px solid rgb(165, 154, 154);
+}
+
+p {
+    background: rgb(192, 192, 192);
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+.summary {
+    margin-top: 30px;
+    display: flex;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 32%;
+}
+
+.card li {
+    font-size: 13px;
+    font-weight: 400px;
+}
+
+.card li:hover {
+    background: none;
+}
+
+.card a {
+    text-align: right;
+}
+
+.mid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.boardFooter {
+    border: 1px solid gray;
+    width: 32%;
+}
+
+.ft {
+    background: rgb(192, 192, 192);
+    padding-left: 7px;
+    font-size: 17px;
+    font-weight: 700;
+    height: 50px;
+}
+
+.footer table, .footer th, .footer td {
+    padding-left: 7px;
+    /*      
+    border: 1px solid rgb(104, 99, 99); */
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer td {
+    width: 190px;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #018646;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 16px;
+    z-index: 1;
+    margin-left: -20px;
+    margin-top: 1px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ddownText {
+    width: 100%;
+    background: #018646;
+    border-bottom: 1px solid white;
+}
+
+.logo-time {
+    display: flex;
+}
+
+.logo-time p {
+    margin-left: auto;
+    background: none!important;
+}
+footer{
+    background:black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.ftText{
+    background:none
+}
